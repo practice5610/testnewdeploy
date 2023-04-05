@@ -1,0 +1,73 @@
+export declare const POSTStoreRequestBodyExamples: {
+    DATA_SENT: {
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        number: string;
+        street1: string;
+        street2: string;
+        city: string;
+        state: string;
+        zip: string;
+        country: string;
+        pin: number;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: string;
+        coverImageUrl: string;
+        companyType: string;
+        companyDescription: string;
+        fein: number;
+        years: number;
+        storeType: string;
+        links: string[];
+        _tags: string[];
+        _geoloc: {};
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            name: string;
+            firstName: string;
+            lastName: string;
+        };
+    };
+};
+export declare const PUTStoreByIDRequestBodyExamples: {
+    DATA_SENT: {
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        number: string;
+        street1: string;
+        street2: string;
+        city: string;
+        state: string;
+        zip: string;
+        country: string;
+        pin: number;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: string;
+        coverImageUrl: string;
+        companyType: string;
+        companyDescription: string;
+        fein: number;
+        years: number;
+        storeType: string;
+        links: string[];
+        _tags: string[];
+        _geoloc: {};
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            name: string;
+            firstName: string;
+            lastName: string;
+        };
+    };
+};

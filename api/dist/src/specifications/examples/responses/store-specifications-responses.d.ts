@@ -1,0 +1,276 @@
+import { APIResponseMessages } from '../../../constants';
+export declare const POSTStoreResponseExamples: {
+    SUCCESS: {
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        number: string;
+        street1: string;
+        street2: string;
+        city: string;
+        state: string;
+        zip: string;
+        country: string;
+        pin: number;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: string;
+        coverImageUrl: string;
+        companyType: string;
+        companyDescription: string;
+        fein: number;
+        years: number;
+        storeType: string;
+        links: string[];
+        _tags: string[];
+        _geoloc: {};
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            name: string;
+            firstName: string;
+            lastName: string;
+        };
+    };
+};
+export declare const GETStoresCountResponseExamples: {
+    SUCCESS: {
+        success: boolean;
+        message: APIResponseMessages;
+        data: {
+            count: number;
+        };
+    };
+};
+export declare const GETStoresResponseExamples: {
+    SUCCESS: ({
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        city: string;
+        state: string;
+        country: string;
+        objectID: null;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: null;
+        coverImageUrl: null;
+        companyType: string;
+        companyDescription: string;
+        links: never[];
+        _tags: never[];
+        _geoloc: {
+            lat: string;
+            lng: string;
+        };
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            firstName: string;
+            lastName: string;
+            name?: undefined;
+        };
+        number?: undefined;
+        street1?: undefined;
+        street2?: undefined;
+        zip?: undefined;
+        fein?: undefined;
+        years?: undefined;
+        storeType?: undefined;
+    } | {
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        city: string;
+        state: string;
+        country: string;
+        objectID: null;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: string;
+        coverImageUrl: null;
+        companyType: string;
+        companyDescription: string;
+        links: never[];
+        _tags: never[];
+        _geoloc: {
+            lat: number;
+            lng: number;
+        };
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            firstName: string;
+            lastName: string;
+            name?: undefined;
+        };
+        number?: undefined;
+        street1?: undefined;
+        street2?: undefined;
+        zip?: undefined;
+        fein?: undefined;
+        years?: undefined;
+        storeType?: undefined;
+    } | {
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        number: null;
+        street1: null;
+        street2: null;
+        city: string;
+        state: string;
+        zip: string;
+        country: string;
+        objectID: null;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: null;
+        coverImageUrl: null;
+        companyType: string;
+        companyDescription: string;
+        fein: null;
+        years: null;
+        storeType: null;
+        links: never[];
+        _tags: never[];
+        _geoloc: {
+            lat: number;
+            lng: number;
+        };
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            firstName: string;
+            lastName: string;
+            name?: undefined;
+        };
+    } | {
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        number: string;
+        street1: string;
+        street2: string;
+        city: string;
+        state: string;
+        zip: string;
+        country: string;
+        objectID: null;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: string;
+        coverImageUrl: string;
+        companyType: string;
+        companyDescription: string;
+        fein: number;
+        years: number;
+        storeType: string;
+        links: string[];
+        _tags: string[];
+        _geoloc: {
+            lat?: undefined;
+            lng?: undefined;
+        };
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            name: string;
+            firstName: string;
+            lastName: string;
+        };
+    })[];
+};
+export declare const GETStoreByIDResponseExamples: {
+    SUCCESS: {
+        _id: string;
+        companyName: string;
+        emails: string[];
+        phoneNumber: string;
+        number: string;
+        street1: string;
+        street2: string;
+        city: string;
+        state: string;
+        zip: string;
+        country: string;
+        objectID: null;
+        createdAt: number;
+        updatedAt: number;
+        companyLogoUrl: string;
+        coverImageUrl: string;
+        companyType: string;
+        companyDescription: string;
+        fein: number;
+        years: number;
+        storeType: string;
+        links: string[];
+        _tags: string[];
+        _geoloc: {};
+        openingTime: number;
+        closingTime: number;
+        days: string[];
+        merchant: {
+            uid: string;
+            name: string;
+            firstName: string;
+            lastName: string;
+        };
+    };
+};
+export declare const PUTStoreByIDResponseExamples: {
+    SUCCESS: {
+        success: boolean;
+        message: string;
+        result: {
+            _id: string;
+            companyName: string;
+            emails: string[];
+            phoneNumber: string;
+            number: string;
+            street1: string;
+            street2: string;
+            city: string;
+            state: string;
+            zip: string;
+            country: string;
+            pin: number;
+            createdAt: number;
+            updatedAt: number;
+            companyLogoUrl: string;
+            coverImageUrl: string;
+            companyType: string;
+            companyDescription: string;
+            fein: number;
+            years: number;
+            storeType: string;
+            links: string[];
+            _tags: string[];
+            _geoloc: {};
+            openingTime: number;
+            closingTime: number;
+            days: string[];
+            merchant: {
+                uid: string;
+                name: string;
+                firstName: string;
+                lastName: string;
+            };
+        };
+    };
+};

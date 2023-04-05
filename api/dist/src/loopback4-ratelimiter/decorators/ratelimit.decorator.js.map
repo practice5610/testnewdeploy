@@ -1,0 +1,1 @@
+{"version":3,"file":"ratelimit.decorator.js","sourceRoot":"","sources":["../../../../src/loopback4-ratelimiter/decorators/ratelimit.decorator.ts"],"names":[],"mappings":";;;AAAA,yCAAwD;AAGxD,kCAAsD;AAGtD,SAAgB,SAAS,CAAC,OAAgB,EAAE,OAAiB;IAC3D,OAAO,6BAAsB,CAAC,eAAe,CAAoB,kCAA2B,EAAE;QAC5F,OAAO,EAAE,OAAO;QAChB,OAAO;KACR,CAAC,CAAC;AACL,CAAC;AALD,8BAKC"}
